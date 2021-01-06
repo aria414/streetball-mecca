@@ -1,0 +1,30 @@
+#park-info-container {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 5px;
+  position: relative;
+  background: no-repeat;
+  background-size: cover;
+  }
+  
+#image {
+  background-repeat: no-repeat;
+  background: rgba(155,155,155,.1);
+  background-size: cover;
+}
+
+#title {
+  width: 100%;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  line-height: 30px;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  letter-spacing: 4px;
+}
+
+
+
